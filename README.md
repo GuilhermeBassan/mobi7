@@ -6,7 +6,7 @@ Através da análise dos pacotes, pode-se concluir:
 * A velocidade média é 66.9 milhas por hora;
 * A velocidade máxima é 97.1 milhas por hora;
 * O deslocamento no intervalo de 10 a 11 horas é de 44.2 milhas;
-* A velocidade máxima registrada, apesar de apresentar um valor aparentemente factível, parece ser uma dispersão. Para essa conclusão, pode-se analisar o gráfico de velocidade e desocamento (abaixo) e notar que no momento desse pico de velocidade não há uma variação condizente no deslocamento.
+* A velocidade máxima registrada, apesar de apresentar um valor aparentemente factível, parece ser uma dispersão. Para essa conclusão, pode-se analisar o gráfico de velocidade e deslocamento (abaixo) e notar que no momento desse pico de velocidade não há uma variação condizente no deslocamento.
  
 ## Gráficos:
 ![Distância e velocidade](https://github.com/GuilhermeBassan/mobi7/blob/main/images/spd_mil.png "Distância e velocidade")

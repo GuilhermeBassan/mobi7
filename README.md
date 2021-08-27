@@ -13,7 +13,7 @@ Através da análise dos pacotes, pode-se concluir:
 
 ![Estado da ignição](../images/ign.png "Ignição")
 
-![Características elétricas](../images/bat_ext.png "Características elétricas")
+![Características elétricas](https://github.com/GuilhermeBassan/mobi7/blob/main/images/bat_ext.png "Características elétricas")
 
 ![Informações de GPS](../images/sat_acc.png "Informações de GPS")
 

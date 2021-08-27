@@ -9,13 +9,13 @@ Através da análise dos pacotes, pode-se concluir:
 * A velocidade máxima registrada, apesar de apresentar um valor aparentemente factível, parece ser uma dispersão. Para essa conclusão, pode-se analisar o gráfico de velocidade e desocamento (abaixo) e notar que no momento desse pico de velocidade não há uma variação condizente no deslocamento.
  
 ## Gráficos:
-![Distância e velocidade](../images/spd_mil.png "Distância e velocidade")
+![Distância e velocidade](https://github.com/GuilhermeBassan/mobi7/blob/main/images/spd_mil.png "Distância e velocidade")
 
-![Estado da ignição](../images/ign.png "Ignição")
+![Estado da ignição](https://github.com/GuilhermeBassan/mobi7/blob/main/images/ign.png "Ignição")
 
 ![Características elétricas](https://github.com/GuilhermeBassan/mobi7/blob/main/images/bat_ext.png "Características elétricas")
 
-![Informações de GPS](../images/sat_acc.png "Informações de GPS")
+![Informações de GPS](https://github.com/GuilhermeBassan/mobi7/blob/main/images/sat_acc.png "Informações de GPS")
 
 ## Programa:
 

@@ -59,3 +59,26 @@ python3 main.py
 
 ## Observações:
 *  Um arquivo contendo um script com a tarefa pronta foi recebido previamente ao início da mesma. Antes de dar início ao desenvolvimento, já havia sido feita uma análise razoável do código, o que pode ter causado um viés na elaboração dessas soluções. Foram feitas tentativas de uma construção diferente de soluções, mas principalmente no caso da decodificação dos dados, o método apresentado ficou muito parecido com o recebido previamente.
+
+# Problema 2
+
+Processo de validação de equipamento instalado.
+
+## Variáveis a observar para garantir a instalação correta dos pontos elétricos:
+* Antes de qualquer verificação, deve-se prestar muita atenção na polaridade da tensão da bateria quando a mesma estiver sendo instalada. Caso o equipamento não possua proteção, uma inversão de polaridade pode causar danos e possivelmente irá estragar o dispositivo;
+* Estando a polaridade instalada de forma correta, o atendente pode requisitar os dados do dispositivo para confrontá-los com os dados reais:
+  * Fazer a requisição dos dados com a ignição desligada, e após isso ligada, e verificar os dados recebidos;
+  * Verificar a tensão externa indicada na requisição e compará-la com a tensão real;
+  * Verificar o nível de bateria indicado na requisição e compará-lo com o nível real.
+* Se algum dos dados apresentar inconsistências, deve-se verificar as conexões.
+  
+## Verificação do estado de bloqueio:
+* Antes da verificação, ligar o veículo para conferir se o mesmo está funcionando corretamente;
+* Então, enviar o comando de bloqueio e observar se o mesmo irá causar o desligamento do motor;
+* Caso não aconteça, checar as conexões elétricas e averiguar se o rele que realiza o desligamento da bomba de combustível está funcionando e está ligado corretamente - pode-se usar um multímetro e testar a continuidade do rele com o bloqueio acionado (não deve apresentar continuidade) ou desacionado (deve apresentar continuidade).
+
+## Qualidade de sinal do GPS:
+* Se possível, fazer o teste em local aberto;
+* Após posicionar o dispositivo no local recomendado, verificar os dados de número de satélites conectados e qualidade de sinal;
+* Se esses dados não forem compatíveis com os padrões sugeridos pela fabricante, ou então os patamares estabelecidos pela empresa, verificar possíveis obstruções no ambiente (edifícios, galpões, etc), que possam estar prejudicando a comunicação;
+* Ao confirmar que o problema de recepção não é do ambiente, então pode-se tentar reposicionar a antena para melhor qualidade - lembrando que a melhor posição é, geralmente, na parte de cima com visada para o céu.
